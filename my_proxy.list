@@ -4,3 +4,4 @@ DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,oszx.co
 IP-CIDR,1.1.1.1/32,no-resolve
+IP-CIDR,27.40.22.1/24,no-resolve
