@@ -3,7 +3,6 @@
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,larksuite.com
-DOMAIN,ali.blog-blockchain.xyz
 DOMAIN,ora.blog-blockchain.xyz
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,tailscale.io

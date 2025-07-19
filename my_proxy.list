@@ -1,40 +1,138 @@
-#dns
+# 代理规则配置文件
 
-DOMAIN-SUFFIX,moomoo.com
+# ========================================
+# DNS 服务相关
+# ========================================
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,oszx.co
 DOMAIN-SUFFIX,okx-httpdns.com
+
+# ========================================
+# 加密货币/交易平台
+# ========================================
+
+#okx
 DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okx-dns.com
+DOMAIN-SUFFIX,okx-dns1.com
+DOMAIN-SUFFIX,okx-dns2.com
 DOMAIN-SUFFIX,okg.com
-DOMAIN-SUFFIX,cursor.sh
+
 DOMAIN-SUFFIX,metamask.io
-DOMAIN-SUFFIX,firefox.com
-DOMAIN-SUFFIX,mozilla.org
-DOMAIN-SUFFIX,clash.wiki
-DOMAIN-SUFFIX,yandex.net
-DOMAIN-SUFFIX,kaspersky-labs.com
-DOMAIN-SUFFIX,cloudsink.net
-DOMAIN-SUFFIX,lencr.org
-DOMAIN-SUFFIX,redditstatic.com
-DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,walletconnect.com
-DOMAIN-SUFFIX,zotero.org
 DOMAIN-SUFFIX,alchemy.com
 
+
+
+#binance
+DOMAIN-SUFFIX,binance.cc
+DOMAIN-SUFFIX,binance.charity
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.co
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.net
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancezh.be
+DOMAIN-SUFFIX,binancezh.biz
+DOMAIN-SUFFIX,binancezh.cc
+DOMAIN-SUFFIX,binancezh.co
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,binancezh.info
+DOMAIN-SUFFIX,binancezh.ink
+DOMAIN-SUFFIX,binancezh.kim
+DOMAIN-SUFFIX,binancezh.link
+DOMAIN-SUFFIX,binancezh.live
+DOMAIN-SUFFIX,binancezh.mobi
+DOMAIN-SUFFIX,binancezh.net
+DOMAIN-SUFFIX,binancezh.pro
+DOMAIN-SUFFIX,binancezh.sh
+DOMAIN-SUFFIX,binancezh.top
+# API
+DOMAIN-SUFFIX,binanceapi.com
+DOMAIN-SUFFIX,bnbstatic.com
+# saas 
+DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,saasexch.io
+DOMAIN-SUFFIX,appsflayer.com
+
+
+DOMAIN-SUFFIX,polymarket.com
+DOMAIN-SUFFIX,moomoo.com
+
+# ========================================
+# 开发工具/编程相关
+# ========================================
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,clash.wiki
+DOMAIN-SUFFIX,zotero.org
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,oszx.co
+
+# ========================================
+# 浏览器/软件更新
+# ========================================
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,mozilla.org
+DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,lencr.org
+
+# ========================================
+# 安全软件
+# ========================================
+DOMAIN-SUFFIX,kaspersky-labs.com
 DOMAIN-SUFFIX,adblockplus.org
-DOMAIN-SUFFIX,pcmag.com
-DOMAIN-SUFFIX,onetrust.com
-DOMAIN-SUFFIX,mashable.com
+
+# ========================================
+# 社交媒体/内容平台
+# ========================================
+DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,redditspace.com
-DOMAIN-SUFFIX,okex.org
-DOMAIN-SUFFIX,notion.so
+
+# ========================================
+# 媒体/新闻网站
+# ========================================
+DOMAIN-SUFFIX,pcmag.com
+DOMAIN-SUFFIX,mashable.com
+
+# ========================================
+# 隐私/合规服务
+# ========================================
+DOMAIN-SUFFIX,onetrust.com
+
+# ========================================
+# 云服务/基础设施
+# ========================================
+DOMAIN-SUFFIX,cloudsink.net
+
+# ========================================
+# 搜索引擎
+# ========================================
+DOMAIN-SUFFIX,yandex.net
+
+# ========================================
+# 翻译服务
+# ========================================
 deepl.com
+
+# ========================================
+# 监控/分析服务
+# ========================================
 browser-intake-datadoghq.com
 
-
+# ========================================
+# IP 地址规则
+# ========================================
 IP-CIDR,1.1.1.1/32,no-resolve
+
+# ========================================
+# 特定域名
+# ========================================
 DOMAIN,blog-blockchain.xyz
 DOMAIN,copilot.microsoft.com
